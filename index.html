@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jet Home Improvement</title>
+<meta name="description" content="Tools, flooring, appliances, materials &amp; equipment. See Jet's listings on Facebook Marketplace, OfferUp and Craigslist.">
+<meta name="theme-color" content="#FF5410">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jet Home Improvement">
+<meta property="og:description" content="Tools · Flooring · Appliances · Materials &amp; Equipment. Browse my listings on Facebook Marketplace, OfferUp and Craigslist.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23FF5410'/%3E%3Cpath d='M10 44 L32 18 L54 44' fill='none' stroke='%23141517' stroke-width='7' stroke-linejoin='miter'/%3E%3Cpath d='M44 32 V20' stroke='%23141517' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --orange:#FF5410; --char:#141517; --white:#fff;
+    --font:"Barlow", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:var(--orange); color:var(--char); font-family:var(--font);
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    min-height:100svh; display:flex; justify-content:center;
+  }
+  main{
+    width:100%; max-width:440px; min-height:100svh;
+    padding:max(40px, env(safe-area-inset-top)) 24px max(40px, env(safe-area-inset-bottom));
+    display:flex; flex-direction:column; justify-content:center;
+  }
+  .brand{display:flex; align-items:center; gap:14px; margin:0}
+  .roof{width:58px; height:auto; flex:none; margin-top:4px}
+  .name{font-weight:700; font-size:84px; line-height:.86; letter-spacing:.005em; color:var(--white); margin:0}
+  .sub{margin:18px 0 0; font-weight:700; font-size:15px; letter-spacing:.24em; text-transform:uppercase}
+  .services{margin:14px 0 0; font-weight:500; font-size:17px; line-height:1.45}
+  .services span{white-space:nowrap}
+  .services span:not(.sep){display:block}
+  .services .sep{display:none}
+  @media (min-width:420px){.services span:not(.sep){display:inline}.services .sep{display:inline}}
+  .lead{margin:44px 0 14px; font-weight:700; font-size:13px; letter-spacing:.16em; text-transform:uppercase}
+  nav{display:flex; flex-direction:column; gap:12px}
+  .btn{
+    display:flex; align-items:center; gap:14px; min-height:64px; padding:0 18px 0 16px;
+    background:var(--char); color:var(--white); text-decoration:none; border-radius:10px;
+    font-weight:700; font-size:19px; letter-spacing:.01em;
+    box-shadow:0 1px 0 rgba(0,0,0,.08);
+    transition:transform .08s ease, background-color .15s ease;
+  }
+  .btn:hover{background:#26282b}
+  .btn:active{transform:scale(.985)}
+  .btn:focus-visible{outline:3px solid var(--white); outline-offset:3px}
+  .ico{width:36px; height:36px; flex:none; border-radius:8px; background:var(--orange); display:grid; place-items:center}
+  .ico svg{width:20px; height:20px}
+  .label{flex:1}
+  .arrow{width:18px; height:18px; flex:none; opacity:.9}
+  footer{margin-top:32px; font-weight:600; font-size:14px; line-height:1.4}
+  @media (min-width:700px){
+    main{min-height:auto; padding-top:72px; padding-bottom:72px}
+    body{align-items:center}
+  }
+  @media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1 class="brand" aria-label="Jet Home Improvement">
+      <svg class="roof" viewBox="-2 -2 30 21" aria-hidden="true" focusable="false">
+        <path d="M0 17 L13 1 L26 17" fill="none" stroke="#141517" stroke-width="2.8" stroke-linejoin="miter" stroke-miterlimit="10"/>
+        <path d="M19.2 8.6 V3.1" stroke="#141517" stroke-width="2.8"/>
+      </svg>
+      <span class="name">Jet</span>
+    </h1>
+    <p class="sub">Home Improvement</p>
+    <p class="services"><span>Tools · Flooring · Appliances</span><span class="sep" aria-hidden="true"> · </span><span>Materials &amp; Equipment</span></p>
+  </header>
+
+  <p class="lead" id="listings">See my listings</p>
+  <nav aria-labelledby="listings">
+    <a class="btn" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.2" stroke-linejoin="round"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9h18v0a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0Z"/><path d="M5 12v8h14v-8"/></svg></span>
+      <span class="label">Facebook Marketplace</span>
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+    </a>
+    <a class="btn" href="https://offerup.co/rVpb8cE3B7b" target="_blank" rel="noopener noreferrer">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.2" stroke-linejoin="round"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="8" cy="8" r="1.6" fill="#141517" stroke="none"/></svg></span>
+      <span class="label">OfferUp</span>
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+    </a>
+    <a class="btn" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.4" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.4" fill="#141517" stroke="none"/><circle cx="4.5" cy="12" r="1.4" fill="#141517" stroke="none"/><circle cx="4.5" cy="18" r="1.4" fill="#141517" stroke="none"/></svg></span>
+      <span class="label">Craigslist</span>
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+    </a>
+  </nav>
+
+  <footer>Browse, then message me on any platform.</footer>
+</main>
+</body>
+</html>
