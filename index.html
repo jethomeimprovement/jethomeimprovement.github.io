@@ -2,101 +2,238 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Jet Home Improvement</title>
-<meta name="description" content="Tools, flooring, appliances, materials &amp; equipment. See Jet's listings on Facebook Marketplace, OfferUp and Craigslist.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jet Home Improvement · 30–70% off retail</title>
+<meta name="description" content="Overstock and discount flooring, tools, appliances and materials, 30–70% off retail. Free delivery, within reason, in the Palm Springs area.">
 <meta name="theme-color" content="#FF5410">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jet Home Improvement">
-<meta property="og:description" content="Tools · Flooring · Appliances · Materials &amp; Equipment. Browse my listings on Facebook Marketplace, OfferUp and Craigslist.">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23FF5410'/%3E%3Cpath d='M10 44 L32 18 L54 44' fill='none' stroke='%23141517' stroke-width='7' stroke-linejoin='miter'/%3E%3Cpath d='M44 32 V20' stroke='%23141517' stroke-width='6'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --orange:#FF5410; --char:#141517; --white:#fff;
-    --font:"Barlow", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;height:100%}
-  body{
-    background:var(--orange); color:var(--char); font-family:var(--font);
-    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-    min-height:100svh; display:flex; justify-content:center;
-  }
-  main{
-    width:100%; max-width:440px; min-height:100svh;
-    padding:max(40px, env(safe-area-inset-top)) 24px max(40px, env(safe-area-inset-bottom));
-    display:flex; flex-direction:column; justify-content:center;
-  }
-  .brand{display:flex; align-items:center; gap:14px; margin:0}
-  .roof{width:58px; height:auto; flex:none; margin-top:4px}
-  .name{font-weight:700; font-size:84px; line-height:.86; letter-spacing:.005em; color:var(--white); margin:0}
-  .sub{margin:18px 0 0; font-weight:700; font-size:15px; letter-spacing:.24em; text-transform:uppercase}
-  .services{margin:14px 0 0; font-weight:500; font-size:17px; line-height:1.45}
-  .services span{white-space:nowrap}
-  .services span:not(.sep){display:block}
-  .services .sep{display:none}
-  @media (min-width:420px){.services span:not(.sep){display:inline}.services .sep{display:inline}}
-  .lead{margin:44px 0 14px; font-weight:700; font-size:13px; letter-spacing:.16em; text-transform:uppercase}
-  nav{display:flex; flex-direction:column; gap:12px}
-  .btn{
-    display:flex; align-items:center; gap:14px; min-height:64px; padding:0 18px 0 16px;
-    background:var(--char); color:var(--white); text-decoration:none; border-radius:10px;
-    font-weight:700; font-size:19px; letter-spacing:.01em;
-    box-shadow:0 1px 0 rgba(0,0,0,.08);
-    transition:transform .08s ease, background-color .15s ease;
-  }
-  .btn:hover{background:#26282b}
-  .btn:active{transform:scale(.985)}
-  .btn:focus-visible{outline:3px solid var(--white); outline-offset:3px}
-  .ico{width:36px; height:36px; flex:none; border-radius:8px; background:var(--orange); display:grid; place-items:center}
-  .ico svg{width:20px; height:20px}
-  .label{flex:1}
-  .arrow{width:18px; height:18px; flex:none; opacity:.9}
-  footer{margin-top:32px; font-weight:600; font-size:14px; line-height:1.4}
-  @media (min-width:700px){
-    main{min-height:auto; padding-top:72px; padding-bottom:72px}
-    body{align-items:center}
-  }
-  @media (prefers-reduced-motion:reduce){.btn{transition:none}}
-</style>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23FF5410'/%3E%3Cpath d='M10 44 L32 18 L54 44' fill='none' stroke='%23141517' stroke-width='7'/%3E%3Cpath d='M44 32 V20' stroke='%23141517' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-  <header>
-    <h1 class="brand" aria-label="Jet Home Improvement">
-      <svg class="roof" viewBox="-2 -2 30 21" aria-hidden="true" focusable="false">
-        <path d="M0 17 L13 1 L26 17" fill="none" stroke="#141517" stroke-width="2.8" stroke-linejoin="miter" stroke-miterlimit="10"/>
-        <path d="M19.2 8.6 V3.1" stroke="#141517" stroke-width="2.8"/>
-      </svg>
-      <span class="name">Jet</span>
-    </h1>
-    <p class="sub">Home Improvement</p>
-    <p class="services"><span>Tools · Flooring · Appliances</span><span class="sep" aria-hidden="true"> · </span><span>Materials &amp; Equipment</span></p>
-  </header>
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="#top" aria-label="Jet Home Improvement, home"><svg class="roof" viewBox="-2 -2 30 21" aria-hidden="true" focusable="false"><path d="M0 17 L13 1 L26 17" fill="none" stroke="currentColor" stroke-width="2.8" stroke-miterlimit="10"/><path d="M19.2 8.6 V3.1" stroke="currentColor" stroke-width="2.8"/></svg><span class="lj">Jet</span><span class="lsub">Home<br>Improvement</span></a>
+    <nav class="nav" aria-label="Main"><a href="#flooring-deals">Flooring</a><a href="#tools">Tools</a><a href="#appliances">Appliances</a><a href="#materials">Materials</a><a href="#contact">Contact</a></nav>
+    <a class="btn btn-orange hdr-cta" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4Z"/></svg><span>Message me</span></a>
+    <details class="menu"><summary aria-label="Menu"><span></span><span></span><span></span></summary><nav aria-label="Mobile"><a href="#flooring-deals">Flooring</a><a href="#tools">Tools</a><a href="#appliances">Appliances</a><a href="#materials">Materials</a><a href="#contact">Contact</a><a class="mm-cta" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer">Message me</a></nav></details>
+  </div>
+</header>
 
-  <p class="lead" id="listings">See my listings</p>
-  <nav aria-labelledby="listings">
-    <a class="btn" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer">
-      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.2" stroke-linejoin="round"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9h18v0a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0Z"/><path d="M5 12v8h14v-8"/></svg></span>
-      <span class="label">Facebook Marketplace</span>
-      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-    </a>
-    <a class="btn" href="https://offerup.co/rVpb8cE3B7b" target="_blank" rel="noopener noreferrer">
-      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.2" stroke-linejoin="round"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="8" cy="8" r="1.6" fill="#141517" stroke="none"/></svg></span>
-      <span class="label">OfferUp</span>
-      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-    </a>
-    <a class="btn" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer">
-      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#141517" stroke-width="2.4" stroke-linecap="round"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.4" fill="#141517" stroke="none"/><circle cx="4.5" cy="12" r="1.4" fill="#141517" stroke="none"/><circle cx="4.5" cy="18" r="1.4" fill="#141517" stroke="none"/></svg></span>
-      <span class="label">Craigslist</span>
-      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
-    </a>
-  </nav>
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">Tools · Flooring · Appliances · Materials</p>
+      <h1><span class="big">30–70%</span> <span class="rest">off retail.</span></h1>
+      <div class="fd-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4.5L22 12.5V16h-8"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg><span><strong>Free delivery, within reason</strong><small>Local delivery — ask about your area</small></span></div>
+      <p class="lede">Overstock and discount home-improvement stock, sold locally in the Palm Springs area.</p>
+      <div class="cta">
+        <a class="btn btn-dark btn-lg" href="#flooring-deals"><span>Shop flooring deals</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+        <a class="btn btn-white btn-lg" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4Z"/></svg><span>Message me</span></a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="hc hc1"><img src="img/12.jpg" alt=""><span class="hp">$35</span></div><div class="hc hc2"><img src="img/08.jpg" alt=""><span class="hp">$35</span></div><div class="hc hc3"><img src="img/02.jpg" alt=""><span class="hp">$35</span></div><div class="sticker"><span class="st-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4.5L22 12.5V16h-8"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span><strong>Free delivery</strong><span>within reason</span></div></div>
+  </div>
+</section>
 
-  <footer>Browse, then message me on any platform.</footer>
+<section class="strip" aria-label="Highlights">
+  <div class="wrap strip-in">
+    <div class="si si-main"><span class="si-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4.5L22 12.5V16h-8"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span><div><strong>Free delivery, within reason</strong><small>Local delivery — ask about your area</small></div></div>
+    <div class="si"><span class="si-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="7.5" cy="7.5" r="1.3" fill="currentColor"/></svg></span><div><strong>30–70% off retail</strong><small>Overstock &amp; discount stock</small></div></div>
+    <div class="si"><span class="si-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5Z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg></span><div><strong>Pickup works too</strong><small>Message me to set a time</small></div></div>
+  </div>
+</section>
+
+<section class="cats" aria-labelledby="cats-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">What I sell</p><h2 id="cats-h">Shop by category</h2></div></div>
+    <div class="cat-grid"><a class="cat" id="flooring" href="#flooring-deals" ><span class="cart"><span class="photo"><img src="img/02.jpg" alt="" loading="lazy"></span></span><span class="cbody"><strong>Flooring</strong><small>Vinyl plank, laminate and more</small><em>See flooring deals <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></em></span></a><a class="cat" id="tools" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer"><span class="cart"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<defs><linearGradient id="bgc1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3EFE8"/><stop offset="1" stop-color="#E4DED3"/></linearGradient>
+<radialGradient id="shc1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="300" fill="url(#bgc1)"/><ellipse cx="200" cy="262" rx="120" ry="14" fill="url(#shc1)"/>
+<rect x="150" y="214" width="110" height="44" rx="10" fill="#141517"/><rect x="160" y="224" width="90" height="8" rx="3" fill="#FF5410"/>
+<path d="M175 214 L192 150 H228 L222 214 Z" fill="#26282c"/>
+<path d="M120 92 H262 a26 26 0 0 1 26 26 v14 a26 26 0 0 1 -26 26 H150 a30 30 0 0 1 -30 -30 Z" fill="#FF5410"/>
+<path d="M200 92 H262 a26 26 0 0 1 26 26 v14 a26 26 0 0 1 -26 26 H200 Z" fill="#E04608"/>
+<rect x="288" y="108" width="26" height="34" rx="5" fill="#2b2d31"/><rect x="314" y="116" width="22" height="18" rx="3" fill="#6c6f75"/>
+<rect x="336" y="122" width="40" height="6" rx="3" fill="#9a9da2"/>
+<rect x="196" y="160" width="10" height="20" rx="4" fill="#141517"/>
+<circle cx="150" cy="125" r="9" fill="#141517" opacity=".85"/></svg></span><span class="cbody"><strong>Tools</strong><small>Power tools, saws and hand tools</small><em>Browse on Craigslist <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></em></span></a><a class="cat" id="appliances" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer"><span class="cart"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<defs><linearGradient id="bgc2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3EFE8"/><stop offset="1" stop-color="#E4DED3"/></linearGradient>
+<radialGradient id="shc2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="300" fill="url(#bgc2)"/><ellipse cx="200" cy="282" rx="120" ry="12" fill="url(#shc2)"/>
+<rect x="115" y="22" width="170" height="256" rx="10" fill="#D4D7DB"/>
+<rect x="119" y="26" width="80" height="164" rx="6" fill="#E3E5E8"/><rect x="201" y="26" width="80" height="164" rx="6" fill="#DADDE1"/>
+<rect x="119" y="194" width="162" height="80" rx="6" fill="#CDD0D4"/>
+<rect x="188" y="70" width="6" height="90" rx="3" fill="#8d9096"/><rect x="206" y="70" width="6" height="90" rx="3" fill="#8d9096"/>
+<rect x="160" y="206" width="80" height="6" rx="3" fill="#8d9096"/>
+<rect x="140" y="56" width="26" height="36" rx="3" fill="#141517"/><rect x="144" y="61" width="18" height="6" rx="1" fill="#FF5410"/>
+<path d="M125 32 l30 0 l-26 150 h-4 z" fill="#fff" opacity=".25"/></svg></span><span class="cbody"><strong>Appliances</strong><small>Appliances and home equipment</small><em>Browse on Craigslist <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></em></span></a><a class="cat" id="materials" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer"><span class="cart"><svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+<defs><linearGradient id="bgc3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFEAE2"/><stop offset="1" stop-color="#DDD5C8"/></linearGradient>
+<radialGradient id="shc3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="300" fill="url(#bgc3)"/><ellipse cx="200" cy="232" rx="160" ry="14" fill="url(#shc3)"/><rect x="70" y="188" width="250" height="26" rx="2" fill="#d9a66b"/><rect x="70" y="188" width="250" height="26" rx="2" fill="none" stroke="#00000022"/><rect x="76" y="160" width="240" height="26" rx="2" fill="#c99559"/><rect x="76" y="160" width="240" height="26" rx="2" fill="none" stroke="#00000022"/><rect x="82" y="132" width="230" height="26" rx="2" fill="#e0b27a"/><rect x="82" y="132" width="230" height="26" rx="2" fill="none" stroke="#00000022"/><rect x="88" y="104" width="220" height="26" rx="2" fill="#cf9c61"/><rect x="88" y="104" width="220" height="26" rx="2" fill="none" stroke="#00000022"/>
+<rect x="250" y="120" width="80" height="94" rx="3" fill="#8a6a46"/><rect x="250" y="120" width="80" height="18" fill="#FF5410"/><rect x="262" y="152" width="56" height="8" rx="2" fill="#141517" opacity=".7"/><rect x="262" y="166" width="40" height="6" rx="2" fill="#141517" opacity=".5"/></svg></span><span class="cbody"><strong>Materials &amp; Equipment</strong><small>Building materials and equipment</small><em>Browse on Craigslist <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></em></span></a></div>
+  </div>
+</section>
+
+<section class="deals" id="flooring-deals" aria-labelledby="deals-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="kicker">Listed on Craigslist now</p><h2 id="deals-h">Flooring deals</h2></div>
+      <p class="sample"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>13 listings · La Quinta</p>
+    </div>
+    <div class="deal-grid"><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-dark-chocolate/pPqzYFB9AR2WE5bLsZNpkY" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/01.jpg" alt="Photo of Vinyl Flooring Dark Chocolate Walnut 20MIL Pergo" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Vinyl Flooring Dark Chocolate Walnut 20MIL Pergo</h3>
+    <p class="ddet">7.5" W × 48" L · 20 mil</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-dark-chocolate/pPqzYFB9AR2WE5bLsZNpkY" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/la-quinta-lifeproof-lakeside-hill-oak/99HLeQ1r7rsBGbzJF5YuAv" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/02.jpg" alt="Photo of Lifeproof Lakeside Hill Oak 22 MIL Waterproof Luxury Vinyl Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Lifeproof Lakeside Hill Oak 22 MIL Waterproof Luxury Vinyl Flooring</h3>
+    <p class="ddet">8.7" W × 48" L · 20.1 sq ft per case</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/la-quinta-lifeproof-lakeside-hill-oak/99HLeQ1r7rsBGbzJF5YuAv" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-woodford-oak/1AuFBrQhtyd4JbRN3U4NeK" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/03.jpg" alt="Photo of Vinyl Flooring Woodford Oak SMARTCORE Ultra By COREtec" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Vinyl Flooring Woodford Oak SMARTCORE Ultra By COREtec</h3>
+    <p class="ddet">6" W × 48" L · 15.76 sq ft per carton</p>
+    <div class="dprice"><strong>$25</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-woodford-oak/1AuFBrQhtyd4JbRN3U4NeK" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-style-selections-tudor-oak-12-mil/rzfQesTi2jptddmUhqCLkH" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/04.jpg" alt="Photo of Style Selections Tudor Oak 12-mil Waterproof Luxury Vinyl Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Style Selections Tudor Oak 12-mil Waterproof Luxury Vinyl Flooring</h3>
+    <p class="ddet">7" W × 48" L · 23.21 sq ft per carton</p>
+    <div class="dprice"><strong>$25</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-style-selections-tudor-oak-12-mil/rzfQesTi2jptddmUhqCLkH" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/la-quinta-aa-surfaces-trinity/euSL68YxhanEHUvG2xxuqD" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/05.jpg" alt="Photo of A&amp;A Surfaces Trinity Barrington Waterproof Laminate Wood Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>A&amp;A Surfaces Trinity Barrington Waterproof Laminate Wood Flooring</h3>
+    <p class="ddet">10 mm × 7" W · 18 sq ft per case</p>
+    <div class="dprice"><strong>$20</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/la-quinta-aa-surfaces-trinity/euSL68YxhanEHUvG2xxuqD" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-hdc-vinyl-flooring-click-lock/eq6aSxCgWbNsseGEm522bE" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/06.jpg" alt="Photo of HDC Vinyl Flooring Click Lock Fireview Lookout Gray" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>HDC Vinyl Flooring Click Lock Fireview Lookout Gray</h3>
+    <p class="ddet">7" W × 42" L · 20.8 sq ft per case</p>
+    <div class="dprice"><strong>$25</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-hdc-vinyl-flooring-click-lock/eq6aSxCgWbNsseGEm522bE" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-lifeproof-eastmoor/kttd3QGDt7159rG2DSnXaa" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/07.jpg" alt="Photo of Vinyl Flooring Lifeproof Eastmoor Chestnut 22 MIL" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Vinyl Flooring Lifeproof Eastmoor Chestnut 22 MIL</h3>
+    <p class="ddet">8.7" W × 48" L · 20.1 sq ft per case</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-vinyl-flooring-lifeproof-eastmoor/kttd3QGDt7159rG2DSnXaa" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-lifeproof-moose-lake-chestnut-22/quam9v3ftJ4kNo7QZb4Ebr" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/08.jpg" alt="Photo of Lifeproof Moose Lake Chestnut 22 MIL Waterproof Vinyl Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Lifeproof Moose Lake Chestnut 22 MIL Waterproof Vinyl Flooring</h3>
+    <p class="ddet">9" W × 48" L · 18 sq ft per case</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-lifeproof-moose-lake-chestnut-22/quam9v3ftJ4kNo7QZb4Ebr" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-lifeproof-vinyl-flooring-baileys/5H8xdxuWSfy8XAcYQkfizW" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/09.jpg" alt="Photo of Lifeproof Vinyl Flooring Bailey&#x27;s Beach Oak 12 MIL" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Lifeproof Vinyl Flooring Bailey&#x27;s Beach Oak 12 MIL</h3>
+    <p class="ddet">8.7" W × 59" L · 21.45 sq ft per case</p>
+    <div class="dprice"><strong>$38</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-lifeproof-vinyl-flooring-baileys/5H8xdxuWSfy8XAcYQkfizW" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-lifeproof-vinyl-flooring/fPmvEqcZMLT4S9QbRfiyFx" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/10.jpg" alt="Photo of Lifeproof Vinyl Flooring Tanglewood Oak 22 MIL" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Lifeproof Vinyl Flooring Tanglewood Oak 22 MIL</h3>
+    <p class="ddet">8.7" W × 59" L · 25 sq ft per case</p>
+    <div class="dprice"><strong>$38</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-lifeproof-vinyl-flooring/fPmvEqcZMLT4S9QbRfiyFx" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-laminate-waterproof-wood-flooring/v7px7n18bqe5LxPWecnQ7M" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/11.jpg" alt="Photo of Laminate Waterproof Wood Flooring with Underlayment" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>Laminate Waterproof Wood Flooring with Underlayment</h3>
+    <p class="ddet">10 mm × 7" W · 18 sq ft per case</p>
+    <div class="dprice"><strong>$20</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-laminate-waterproof-wood-flooring/v7px7n18bqe5LxPWecnQ7M" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-msi-madison-mill-30-mil-click/bdS6WS4fwxtAeDexXbY212" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/12.jpg" alt="Photo of MSI Madison Mill 30 MIL Click Lock Waterproof Vinyl Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>MSI Madison Mill 30 MIL Click Lock Waterproof Vinyl Flooring</h3>
+    <p class="ddet">9" W × 48" L · 17.96 sq ft per case</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-msi-madison-mill-30-mil-click/bdS6WS4fwxtAeDexXbY212" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><article class="deal">
+  <a class="dart" href="https://www.craigslist.org/view/d/indio-msi-bailey-rayne-30-mil-click/wJ9hbffnzqSt2NTJ59mUQN" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><img src="img/13.jpg" alt="Photo of MSI Bailey Rayne 30 MIL Click Lock Waterproof Vinyl Flooring" loading="lazy" width="337" height="450"><span class="new">Brand new</span></a>
+  <div class="dbody">
+    <p class="dloc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>La Quinta</p>
+    <h3>MSI Bailey Rayne 30 MIL Click Lock Waterproof Vinyl Flooring</h3>
+    <p class="ddet">9" W × 48" L · 17.96 sq ft per case</p>
+    <div class="dprice"><strong>$35</strong></div>
+    <a class="btn btn-dark btn-block" href="https://www.craigslist.org/view/d/indio-msi-bailey-rayne-30-mil-click/wJ9hbffnzqSt2NTJ59mUQN" target="_blank" rel="noopener noreferrer"><span>View on Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+  </div>
+</article><a class="deal more-card" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer"><span class="mc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5Z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg></span><strong>Tools, appliances &amp; more</strong><span>See everything I have listed right now on Craigslist.</span><em>See all my listings <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a></div>
+    <p class="fine">Prices as listed on Craigslist. Stock changes often, so message me to confirm what’s available.</p>
+  </div>
+</section>
+
+<section class="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="kicker">Easy as 1-2-3</p><h2 id="how-h">How it works</h2></div></div>
+    <ol class="steps"><li><span class="snum">1</span><span class="sic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg></span><h3>Browse</h3><p>Find a deal here or on Facebook Marketplace, OfferUp or Craigslist.</p></li><li><span class="snum">2</span><span class="sic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4Z"/></svg></span><h3>Message</h3><p>Send me a message to check it’s still available and set a time.</p></li><li><span class="snum">3</span><span class="sic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4.5L22 12.5V16h-8"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span><h3>We deliver free, or you pick up</h3><p>Free delivery, within reason. Prefer to grab it yourself? Pickup works too.</p></li></ol>
+  </div>
+</section>
+
+<section class="why" aria-labelledby="why-h">
+  <div class="wrap">
+    <h2 id="why-h" class="why-h">Why buy from Jet</h2>
+    <ul class="why-list"><li><span class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="7.5" cy="7.5" r="1.3" fill="currentColor"/></svg></span><div><h3>30–70% off retail</h3><p>Overstock and discount stock, priced well under retail.</p></div></li><li><span class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6h12v10H2zM14 9h4.5L22 12.5V16h-8"/><circle cx="6.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></span><div><h3>Free delivery, within reason</h3><p>Local delivery — ask about your area.</p></div></li><li><span class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><div><h3>Local to the Palm Springs area</h3><p>A local seller, not a faraway warehouse.</p></div></li><li><span class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5Z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg></span><div><h3>One stop</h3><p>Tools, flooring, appliances and materials in one place.</p></div></li></ul>
+  </div>
+</section>
+
+<section class="find" id="contact" aria-labelledby="find-h">
+  <div class="wrap find-in">
+    <div><h2 id="find-h">Find me on</h2><p>See every listing and message me on whichever app you use.</p></div>
+    <div class="plats"><a class="pbtn" href="https://www.facebook.com/marketplace/profile/61564388235743/" target="_blank" rel="noopener noreferrer"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9h18a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0Z"/><path d="M5 12v8h14v-8"/></svg></span><span>Facebook Marketplace</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="pbtn" href="https://offerup.co/rVpb8cE3B7b" target="_blank" rel="noopener noreferrer"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V3h9l9 9-9 9Z"/><circle cx="7.5" cy="7.5" r="1.3" fill="currentColor"/></svg></span><span>OfferUp</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><a class="pbtn" href="https://www.craigslist.org/search/area/palmsprings?cat=sss&amp;userpostingid=7973881236" target="_blank" rel="noopener noreferrer"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2" fill="currentColor"/><circle cx="4.5" cy="12" r="1.2" fill="currentColor"/><circle cx="4.5" cy="18" r="1.2" fill="currentColor"/></svg></span><span>Craigslist</span><svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+  </div>
+</section>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="logo logo-foot" href="#top" aria-label="Jet Home Improvement"><svg class="roof" viewBox="-2 -2 30 21" aria-hidden="true" focusable="false"><path d="M0 17 L13 1 L26 17" fill="none" stroke="currentColor" stroke-width="2.8" stroke-miterlimit="10"/><path d="M19.2 8.6 V3.1" stroke="currentColor" stroke-width="2.8"/></svg><span class="lj">Jet</span><span class="lsub">Home<br>Improvement</span></a>
+    <p>Tools · Flooring · Appliances · Materials &amp; Equipment · Palm Springs area</p>
+    <p class="small">30–70% off retail · Free delivery, within reason (local delivery — ask about your area). © 2026 Jet Home Improvement</p>
+  </div>
+</footer>
 </body>
 </html>
